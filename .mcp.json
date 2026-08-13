@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "equibles": {
+      "type": "http",
+      "url": "https://mcp.equibles.com/mcp"
+    },
+    "tradingview": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["--from", "tradingview-mcp-server", "tradingview-mcp"],
+      "env": {}
+    }
+  }
+}
